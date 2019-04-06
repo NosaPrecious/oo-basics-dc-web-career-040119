@@ -18,4 +18,12 @@ class Shoe
     @color
   end
   
+    def size=(size_type)
+    @size= size_type
+  end
+  
+  def size
+    @size
+  end
+  
 end
