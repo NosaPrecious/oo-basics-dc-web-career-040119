@@ -14,4 +14,8 @@ class Shoe
     @color= color_type
   end
   
+  def color
+    @color
+  end
+  
 end
